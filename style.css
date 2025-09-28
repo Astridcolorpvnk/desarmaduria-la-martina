@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/* Carrusel imágenes completas */
+/* Carrusel: imagen completa y responsive */
 .carousel-item img {
   width: 100%;
   height: auto;
@@ -14,20 +14,4 @@ body {
   object-fit: cover;
 }
 
-/* Hover para galería */
-.hover-scale:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-/* Encabezados secciones */
-h2 {
-  color: #2f8ec2;
-}
-
-/* Footer imagen */
-footer img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+/* Hover
