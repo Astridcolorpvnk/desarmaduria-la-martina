@@ -1,17 +1,26 @@
 /* ====== Estilo global ====== */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa; /* gris claro moderno */
-  color: #142366; /* azul oscuro */
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #142366;
   line-height: 1.6;
 }
 
-/* ====== Encabezado ====== */
+/* Header */
+header {
+  background-color: #142366;
+  color: #fff;
+}
+
 header h1 span {
-  color: #5ce1e6; /* celeste brillante */
+  color: #5ce1e6;
 }
 
 nav a {
+  margin: 0 10px;
+  color: #fff;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
@@ -19,23 +28,30 @@ nav a:hover {
   color: #5ce1e6;
 }
 
-/* ====== Carrusel ====== */
+nav .whatsapp {
+  background-color: #25D366;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Carrusel */
 .carousel-inner img {
-  height: 400px;
+  width: 100%;
+  height: 70vh;
   object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.5s ease;
+  object-position: center;
 }
 
-.carousel-inner img:hover {
-  transform: scale(1.03);
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 50vh;
+  }
 }
 
-/* ====== Secciones ====== */
+/* Secciones */
 section {
-  padding: 3rem 1rem;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 #nosotros {
@@ -43,85 +59,55 @@ section {
 }
 
 #marcas {
-  background-color: #eaf6fb; /* celeste claro */
+  background-color: #eaf6fb;
 }
 
 #contacto {
-  background-color: #f0f4f8; /* gris claro elegante */
+  background-color: #f0f4f8;
 }
 
 h2 {
   color: #2f8ec2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-/* ====== Galería ====== */
+/* Galería */
 .galeria img {
   width: 100%;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
 }
 
 .galeria img:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* ====== Formulario ====== */
+/* Formulario */
 form input,
 form textarea {
   border-radius: 6px;
-  border: 1px solid #ccc;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #2f8ec2;
-  box-shadow: 0 0 5px #5ce1e6;
 }
 
 form button {
-  background-color: #2f8ec2;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
 }
 
-form button:hover {
-  background-color: #142366;
-  transform: scale(1.05);
-}
-
-/* ====== Contacto con imagen ====== */
+/* Contacto-local */
 .contacto-local img {
-  max-width: 100%;
+  max-width: 250px;
   border-radius: 10px;
   border: 3px solid #2f8ec2;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contacto-local img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-/* ====== Footer ====== */
+/* Footer */
 footer {
-  margin-top: 2rem;
   background-color: #142366;
-  color: white;
-  padding: 2rem 1rem;
+  color: #fff;
 }
 
 footer img {
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-footer img:hover {
-  transform: scale(1.03);
-}
-
-/* ====== Animaciones sutiles ====== */
-section, .galeria img, .contacto-local img, form button {
-  transition: all 0.3s ease;
+  width: 100%;
+  height: auto;
 }
