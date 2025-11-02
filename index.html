@@ -18,25 +18,17 @@
         <img src="img/logochated.jpg" alt="Logo" height="60" class="me-2">
         Desarmaduría <span class="text-info">La Martina</span>
       </a>
-      <!-- Botón de colapso para móviles -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#nosotros">Sobre Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#marcas">Marcas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#contacto">Contacto</a>
-          </li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#nosotros">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#marcas">Marcas</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#faq">Preguntas Frecuentes</a></li>
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#contacto">Contacto</a></li>
           <li class="nav-item">
             <a class="btn btn-success ms-lg-2 mt-2 mt-lg-0" href="https://wa.me/56920656819" target="_blank">WhatsApp</a>
           </li>
@@ -49,18 +41,10 @@
   <!-- CARRUSEL -->
   <div id="carruselBootstrap" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/1.jpg" class="d-block w-100" alt="Imagen 1">
-      </div>
-      <div class="carousel-item">
-        <img src="img/2.jpg" class="d-block w-100" alt="Imagen 2">
-      </div>
-      <div class="carousel-item">
-        <img src="img/3.jpg" class="d-block w-100" alt="Imagen 3">
-      </div>
-      <div class="carousel-item">
-        <img src="img/4.jpg" class="d-block w-100" alt="Imagen 4">
-      </div>
+      <div class="carousel-item active"><img src="img/1.jpg" class="d-block w-100" alt="Imagen 1"></div>
+      <div class="carousel-item"><img src="img/2.jpg" class="d-block w-100" alt="Imagen 2"></div>
+      <div class="carousel-item"><img src="img/3.jpg" class="d-block w-100" alt="Imagen 3"></div>
+      <div class="carousel-item"><img src="img/4.jpg" class="d-block w-100" alt="Imagen 4"></div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carruselBootstrap" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
@@ -94,6 +78,149 @@
         <div class="col-6 col-md-3"><img src="img/volante.jpg" class="img-fluid rounded hover-scale" alt="Auto 6"></div>
         <div class="col-6 col-md-3"><img src="img/parachoquesss1.jpg" class="img-fluid rounded hover-scale" alt="Auto 7"></div>
         <div class="col-6 col-md-3"><img src="img/frontal1.jpg" class="img-fluid rounded hover-scale" alt="Auto 8"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PREGUNTAS FRECUENTES -->
+  <section id="faq" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="text-info mb-4 text-center">❓ Preguntas Frecuentes</h2>
+      <div class="accordion" id="accordionFAQ">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              ¿Cómo sé si el repuesto es compatible con mi vehículo?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Puedes enviarnos el modelo, año y versión del vehículo o una foto del repuesto que necesitas. Nuestro equipo te ayudará a verificar la compatibilidad antes de comprar.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              ¿Ofrecen garantía?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Sí, todos nuestros repuestos tienen garantía de funcionamiento por 7 días desde la fecha de compra o recepción.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              ¿Puedo reservar un repuesto?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Sí, puedes reservarlo por hasta 48 horas coordinando con nuestro equipo vía WhatsApp o teléfono.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+              ¿Realizan envíos a regiones?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Sí, hacemos envíos a todo Chile por medio de <strong>Starken, Pullman, Chilexpress o Correos de Chile</strong>. También puedes retirar en nuestras locaciones en Lampa o Curacaví.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+              ¿Puedo retirar el repuesto personalmente?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Claro, puedes hacerlo directamente en <strong>Barros Luco 2815, Lampa, Región Metropolitana</strong>, o en nuestra <strong>nueva locación en Curacaví</strong>.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+              ¿Compran vehículos siniestrados o en mal estado?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Sí, compramos autos siniestrados, chocados o en desuso. Solo necesitas enviarnos fotos y los datos básicos del vehículo para una cotización.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+              ¿Debo tener los papeles al día para vender el auto?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              No es necesario. Compramos vehículos <strong>con deuda, prenda, multas, chocados</strong> y de <strong>empresas o particulares</strong>.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
+              ¿Qué medios de pago aceptan?
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Aceptamos efectivo, transferencia bancaria y pagos con tarjeta a través de Webpay o en el local.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
+              ¿Entregan boleta o factura?
+            </button>
+          </h2>
+          <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Sí, emitimos boleta o factura según tu preferencia al momento de la compra.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10">
+              ¿Cómo puedo comunicarme con ustedes?
+            </button>
+          </h2>
+          <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Puedes escribirnos directamente por 
+              <a href="https://wa.me/56921642648" target="_blank" class="text-success fw-bold text-decoration-none">
+                WhatsApp (+56 9 2164 2648)
+              </a>, llamarnos o enviarnos un mensaje a través del formulario de contacto en nuestra página web.
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
